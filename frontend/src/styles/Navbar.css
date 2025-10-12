@@ -1,0 +1,66 @@
+.navbar-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;    
+    border-bottom: 1px solid rgb(229, 227, 227);
+}
+
+.navbar-logo h1{
+    font-size: 1.7rem;
+}
+
+.navbar-logo:hover{
+    transform: scale(1.1);
+    color: #7A64F6;
+    transition: .3s;
+}
+
+.navbar-menu{
+    display: flex;
+    gap: 15px;
+}
+
+.theme-toggle-wrapper{
+    display: flex;
+    border: 1px solid rgb(229, 227, 227);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.theme-toggle{
+    width: 15px;
+    rotate: 230deg;
+}
+
+.login-btn , .signup-btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(229, 227, 227);
+    background-color: white;
+    font-weight: 600;
+}
+
+.signup-btn{
+    background: linear-gradient(135deg, #467CF6, #7A64F6);
+    color: white;
+}
+
+.login-btn:hover{
+    color: #467CF6;
+    border-color: #467CF6;
+    transition: .3s;
+}
+
+.signup-btn:hover{
+    transform: translateY(-3px);
+    transition: .3s;
+}
+
+.theme-toggle-wrapper:hover{
+    background-color: #467CF6;
+    rotate: 180deg;
+    transition: .3s;
+}

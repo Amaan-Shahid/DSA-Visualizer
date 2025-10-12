@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from "../components/Navbar"
 
 const Visualizer = () => {
   return (
     <div>
-      <h1>Visualizer</h1>
+      <Navbar />
     </div>
   )
 }
