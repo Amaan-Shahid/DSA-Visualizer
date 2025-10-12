@@ -1,0 +1,46 @@
+.header-div {
+  height: 42vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: white;
+}
+
+.header-heading {
+  font-size: 4rem;
+  background: linear-gradient(90deg, #467CF6, #7A64F6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header-para{
+    color: #4B5563;
+    font-size: 1.6rem;
+    width: 35%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header-btn{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #467CF6, #7A64F6);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-btn:hover{
+    transform: translateY(-3px);
+    transition: .3s;
+}
+
+.header-btn img{
+    width: 20px;
+}

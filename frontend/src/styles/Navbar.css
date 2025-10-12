@@ -7,6 +7,16 @@
     border-bottom: 1px solid rgb(229, 227, 227);
 }
 
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo{
+    width: 30px;
+}
+
 .navbar-logo h1{
     font-size: 1.7rem;
 }

@@ -1,11 +1,13 @@
 import React from 'react'
 import '../styles/Navbar.css'
 import moon from "../assets/theme-toggle.svg"
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   return (
     <div className='navbar-div'>
       <div className="navbar-logo">
+        <img src={logo} alt="" className="logo" />
         <h1>DSA Visualizer</h1>
       </div>
       <div className="navbar-menu">
