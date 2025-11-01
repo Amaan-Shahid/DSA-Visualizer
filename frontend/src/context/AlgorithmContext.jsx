@@ -1,5 +1,5 @@
 import { createContext, useContext, useState } from "react";
-import { ALGORITHMS } from "../Data/Algorithms.jsx";
+import { ALGORITHMS } from "../Data/Algorithms.js";
 
 const AlgorithmContext = createContext();
 
