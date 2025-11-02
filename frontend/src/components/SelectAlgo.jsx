@@ -6,8 +6,8 @@ import spider2 from "../assets/spider2.png";
 import notepad from "../assets/notepad.png";
 import toggle from "../assets/play.png";
 
-const SelectAlgo = () => {
-  const [openCategories, setOpenCategories] = useState([]);
+const SelectAlgo = ({ onAlgoSelect }) => {
+  const [openCategories, setOpenCategories] = useState(["Sorting"]);
   const [selectedAlgo, setSelectedAlgo] = useState("Bubble Sort");
 
   const toggleCategory = (category) => {
@@ -21,6 +21,7 @@ const SelectAlgo = () => {
 
   const handleAlgoClick = (algo) => {
     setSelectedAlgo(algo);
+    onAlgoSelect(algo); // 🔼 Send selected algo name to parent
   };
 
   return (
@@ -146,7 +147,7 @@ const SelectAlgo = () => {
             onClick={() => toggleCategory("String")}
           />
         </h3>
-        {openCategories.includes("String")
+        {openCategories.includes("Strings")
  && (
           <>
             <h4
