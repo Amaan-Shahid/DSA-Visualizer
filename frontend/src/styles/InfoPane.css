@@ -1,0 +1,17 @@
+.InfoPane-div{
+    width: 23%;
+    border-left: 1px solid rgb(229, 227, 227);
+    overflow: scroll;
+}
+
+.pseudocode-div h2, .complexity-div h2{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.pseudocode-div h2 img , .complexity-div h2 img{
+    width: 20px;
+}

@@ -1,0 +1,71 @@
+.visual-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f3f4f5;
+    width: 60%;
+}
+
+.title-div{
+    margin: 30px;
+    border: 1px solid rgb(229, 227, 227);
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.controls-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: white;    
+    height: 12%;
+}
+
+.controls-div .main-control , .controls-div .speed-control{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.main-control button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 550;
+    background-color: white;
+    border: 1px solid rgb(229, 227, 227);
+} 
+
+.main-control .play{
+    background: linear-gradient(90deg, #467CF6, #7A64F6);
+    color: white;
+    border: none;
+}
+
+.main-control .reset{
+    background-color: #EF4444;
+    color: white;
+    border: none;
+}
+
+.speed-control button{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(229, 227, 227);
+    background-color: white;
+    font-weight: 550;
+}
+
+.speed-control span{
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.speed-control button.selected{
+    background: linear-gradient(90deg, #467CF6, #7A64F6);
+    color: white;
+}
